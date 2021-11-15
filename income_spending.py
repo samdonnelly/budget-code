@@ -21,10 +21,10 @@ import datetime
 current_time = datetime.datetime.now()
 
 # Define section names to be printed
-sections_string = "\nSections:\n 1. Income\n 2. Gas\n 3. Car Maintenance\n \
-    4. Living Expenses\n 5. Groceries\n 6. Eating Out\n 7. Flights\n \
-        8. Parking\n 9. Day-to-Day\n 10. Type 'options' to see this menu again\n \
-            11. Type 'exit' to end"
+sections_string = "\nSections:\n 1. Income\n 2. Gas\n 3. Car Maintenance\n" + \
+    " 4. Living Expenses\n 5. Groceries\n 6. Eating Out\n 7. Flights\n" + \
+        " 8. Parking\n 9. Day-to-Day\n 10. Type 'options' to see this menu" + \
+            " again \n 11. Type 'exit' to end"
 
 # Establish filename and directory
 filename_pre = "Living Expenses "
